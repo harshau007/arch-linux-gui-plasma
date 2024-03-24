@@ -142,27 +142,14 @@ os-prober
 firefox
 alg-firefox-settings
 
-#Office Suite
-libreoffice-fresh
-okular
-
 #fonts
 ttf-ms-fonts
 ttf-roboto
 noto-fonts-cjk
 
-#printing
-cups
-
-#Video
-vlc
-
 #Icons
 tela-circle-icon
 mcmojave-cursors
-
-#AUR Helper
-paru
 
 #NVIDIA Drivers & Tools
 nvidia
