@@ -2,8 +2,8 @@
 
 GRUB_DEFAULT=0
 GRUB_TIMEOUT=5
-GRUB_DISTRIBUTOR="Arch"
-GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet audit=0"
+GRUB_DISTRIBUTOR="Arch Linux"  # Change this line
+GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet audit=0 boot=archiso label=Arch Linux"  # Change this line
 GRUB_CMDLINE_LINUX=""
 
 # Preload both GPT and MBR modules so that they are not missed
@@ -37,8 +37,8 @@ GRUB_GFXPAYLOAD_LINUX=keep
 # Uncomment to disable generation of recovery mode menu entries
 GRUB_DISABLE_RECOVERY=true
 
-# Uncomment and set to the desired menu colors.  Used by normal and wallpaper
-# modes only.  Entries specified as foreground/background.
+# Uncomment and set to the desired menu colors. Used by normal and wallpaper
+# modes only. Entries specified as foreground/background.
 GRUB_COLOR_NORMAL="white/black"
 GRUB_COLOR_HIGHLIGHT="light-cyan/black"
 
